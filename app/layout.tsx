@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import '../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
