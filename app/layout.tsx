@@ -19,7 +19,7 @@ export default function RootLayout({
 
   const header = (
     <header>
-      <div className="flex items-center justify-between bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% p-8 my-6 rounded-md">
+      <div className="flex items-center justify-between bg-black p-8 my-6 rounded-md">
         <div>
           <Link href="/">
             <h1 className="text-3xl text-white font-mono mt-4">Blog Posts</h1>
@@ -27,7 +27,7 @@ export default function RootLayout({
         </div>
         <div>
           <Link href="/new">
-            <button className="bg-white text-indigo-500 px-4 py-2 rounded-md">Create</button>
+            <button className="bg-white text-black px-4 py-2 rounded-md">Create</button>
           </Link>
         </div>
       </div>
